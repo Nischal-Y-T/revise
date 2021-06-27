@@ -21,6 +21,7 @@ public class One_Demo {
 		System.out.println(driver.findElement(By.id("spanMessage")).getText());
 		//xapth syntax : //tagname[@Attribute='value']
 		driver.findElement(By.xpath("//input[@id='txtUsername']")).sendKeys("Admin");
+		System.out.println("close");
 		
 	}
 
